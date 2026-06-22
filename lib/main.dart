@@ -4,6 +4,8 @@ import 'core/theme/app_theme.dart';
 import 'features/login/screens/login_screen.dart';
 
 import 'features/onboarding/presentation/onboarding_screen.dart';
+import 'features/landing/screens/splash_screen.dart';
+import 'features/landing/screens/splash_screen.dart';
 
 void main() {
   runApp(const WaveGoApp());
@@ -19,7 +21,7 @@ class WaveGoApp extends StatelessWidget {
       title: 'WaveGo',
       theme: AppTheme.lightTheme,
       // home: const LoginScreen(),
-      home: OnboardingScreen(),
+      home: SplashScreen(),
     );
   }
 }
